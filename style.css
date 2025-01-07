@@ -1,0 +1,166 @@
+*{
+    font-family: 'Mulish';
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.webname{
+    font-size: 2.25rem;
+    font-weight: 900;
+}
+.theme-color{
+    color: #FF5400;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 6.25rem;
+}
+nav>ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    margin-right: 30px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+nav li a{
+    text-decoration: none;
+    color: #424247;
+}
+.menu-icon{
+    display: none;
+}
+
+.banner{
+    background: url(Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    max-width: 1200px;
+    height: 500px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-content{
+    text-align: center;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 900;
+    color: white;
+} 
+.banner-desc{
+    max-width: 800px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+}
+.inputs{
+    margin-top: 20px;
+    
+}
+
+.inputs input{
+    color: #131318;
+    font-size: 0.8rem;
+    font-weight: 400;
+    padding: 10px;
+    width: 130px;
+    border: 0;
+    border-radius: 5px;
+}
+.inputs button{
+    color: white;
+    background-color: #FF5400;
+    font-size: 0.8rem;
+    font-weight: 400;
+    padding: 10px;
+    width: 130px;
+    border: 0;
+    border-radius: 5px;
+    align-items: center;
+}
+.inputs button i{
+    padding-right: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px){
+    header,
+    nav{
+        padding: 10px;
+    }
+    .menu-icon{
+        display: block;
+    }
+    #menuList{
+        transition: all 0.5s;
+    }
+    nav ul{
+        position: absolute;
+        top: 70px;
+        right: 0;
+        text-align: left;
+        flex-direction: column;
+        background: #fff;
+        width: 50%;
+        gap: 0;
+        overflow: hidden;
+    }
+    nav ul li{
+        padding: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media  screen and (min-width:576px) and (max-width:992px){
+    header,
+    nav{
+        padding: 30px;
+    }
+    .menu-icon{
+        display: block;
+    }
+    #menuList{
+        transition: all 0.5s;
+    }
+    nav ul{
+        position: absolute;
+        top: 105px;
+        right: 0;
+        text-align: left;
+        flex-direction: column;
+        background: #fff;
+        width: 40%;
+        gap: 0;
+        overflow: hidden;
+    }
+    nav ul li{
+        padding: 20px;
+    }
+}

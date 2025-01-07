@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travelsky</title>
+    <link href='https://fonts.googleapis.com/css?family=Mulish' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="Images/Group 40071 (2).png" alt="">
+                <h2 class="webname">Travel<span class="theme-color">sky</span></h2>
+            </div>
+            <ul id="menuList">
+                <li><a href=""><span class="theme-color">Home</span></a></li>
+                <li><a href="">Packages</a></li>
+                <li><a href="">Testimonial</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+            <img src="icons/menu.svg" alt="" class="menu-icon" onclick="toggleMenu()">
+            <script>
+                let menuList = document.getElementById("menuList")
+                menuList.style.maxHeight = "0px";
+
+                function toggleMenu() {
+                    if (menuList.style.maxHeight == "0px") {
+                        menuList.style.maxHeight = "300px";
+                    }
+                    else {
+                        menuList.style.maxHeight = "0px";
+                    }
+                }
+            </script>
+        </nav>
+        <section class="banner">
+            <div class="banner-content">
+                <h1 class="banner-title">Explore Your Travel</h1>
+                <p class="banner-desc">Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing.
+                    In et odio enim ac quis sapien urna eu phasellus.</p>
+                <div class="inputs">
+                    <input type="text" placeholder="Where go">
+                    <input type="text" placeholder="When">
+                    <input type="text" placeholder="Select type">
+                    <button><i class="fa-solid fa-magnifying-glass"></i>Find Now</button>
+                </div>
+            </div>
+
+        </section>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
