@@ -396,6 +396,43 @@ main section {
     color: #FF5400;
     font-size: 24px;
 }
+#Packages{
+    max-width: 240px;
+}
+.Packages{
+    margin: 0 auto;
+}
+
+.getlost{
+    display: flex;
+    gap: 50px;
+}
+.get-col1{
+    padding-top: 30px;
+}
+.get-col1 ul li{
+    list-style-type: circle;
+    margin-left: 20px;
+    margin-top: 5px;
+    color: #131318;
+    font-weight: 700;
+}
+.mountain{
+    background: url(Images/Group\ 40089.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 610px;
+    height: 424px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 15px;
+}
 
 
 
@@ -470,7 +507,8 @@ main section {
 
     .popular,
     #row1,
-    .deal-icons {
+    .deal-icons,
+    .getlost {
         flex-direction: column;
     }
 
@@ -500,6 +538,10 @@ main section {
     }
     .deal-content{
         margin: 20px;
+    }
+    .mountain{
+        width: 100%;
+        height: 200px;
     }
 }
 
@@ -556,7 +598,8 @@ main section {
     }
 
     .popular,
-    #row1 {
+    #row1,
+    .getlost {
         flex-direction: column;
     }
 
@@ -576,5 +619,8 @@ main section {
     .deal1,
     .deal2{
         justify-content: center;
+    }
+    .mountain{
+        width: 100%;
     }
 }
