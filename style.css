@@ -434,6 +434,48 @@ main section {
     border-radius: 15px;
 }
 
+.newslater{
+    display: flex;
+    gap: 20px;
+}
+.news-col1{
+    border: 1px solid #FF5400;
+    padding: 40px;
+    border-radius: 16px;
+}
+.news-col1 h4{
+    font-size: 1.5rem;
+}
+.news-col1 p{
+    max-width: 350px;
+}
+
+.news-inputs input{
+    width: 300px;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 15px;
+    border: 0;
+    border-radius: 8px;
+    background-color: #1313181e;
+}
+.news-col2{
+    background: url(Images/Rectangle\ 8\ \(1\).png);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    position: relative;
+}
+.news-col2 button{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
 
 
 
