@@ -336,6 +336,67 @@ main section {
     border-radius: 15px;
 }
 
+.deal-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+.deal1{
+    background: url(Images/Group\ 39.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    border-radius: 15px;
+}
+.deal2{
+    background: url(Images/Group\ 40.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-radius: 15px;
+}
+.deal-content{
+    max-width: 580px;
+    background-color: rgba(254, 254, 253, 0.781);
+    margin-right: 60px;
+    margin-left: 60px;
+    padding: 40px;
+    border-radius: 15px;
+}
+.deal-content h5{
+    font-size: 24px;
+}
+.deal-content h4{
+    font-size: 20px;
+    color: #FF5400;
+}
+.deal-icons{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+.calendar,
+.people-loc {
+    display: flex;
+    gap: 5px;
+}
+.deal-icons p{
+    margin-right: 15px;
+}
+.deal-icons i{
+    color: #FF5400;
+    font-size: 24px;
+}
+
 
 
 
@@ -408,7 +469,8 @@ main section {
     }
 
     .popular,
-    #row1 {
+    #row1,
+    .deal-icons {
         flex-direction: column;
     }
 
@@ -430,6 +492,14 @@ main section {
     .box2,
     .box3{
         padding: 20px;
+    }
+    .deal1,
+    .deal2{
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .deal-content{
+        margin: 20px;
     }
 }
 
@@ -503,5 +573,8 @@ main section {
     .row3 {
         flex-direction: column;
     }
-
+    .deal1,
+    .deal2{
+        justify-content: center;
+    }
 }
